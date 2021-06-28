@@ -1,0 +1,29 @@
+{
+    "AS_Button_a38ffc9e67c04eb686a541533f0a4e5d": {
+        "id": "AS_Button_a38ffc9e67c04eb686a541533f0a4e5d",
+        "type": "ACTION_SEQUENCE",
+        "name": "divide",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a8798ef93d884633b13daa538e835333"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f1bc5c6869d8466f808636520dea5aef",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "divide",
+            "display": "divide",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

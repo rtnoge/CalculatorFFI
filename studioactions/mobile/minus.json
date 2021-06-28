@@ -1,0 +1,29 @@
+{
+    "AS_Button_g8a2163554e94fec9ecd3b0290720f42": {
+        "id": "AS_Button_g8a2163554e94fec9ecd3b0290720f42",
+        "type": "ACTION_SEQUENCE",
+        "name": "minus",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a8798ef93d884633b13daa538e835333"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___cfc103c32b7a44a4acee7618c7dfaeca",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "minus",
+            "display": "minus",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

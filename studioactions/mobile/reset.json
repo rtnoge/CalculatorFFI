@@ -1,0 +1,29 @@
+{
+    "AS_Button_eb36503e57d54c73a69e73bd5e61f734": {
+        "id": "AS_Button_eb36503e57d54c73a69e73bd5e61f734",
+        "type": "ACTION_SEQUENCE",
+        "name": "reset",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a8798ef93d884633b13daa538e835333"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ja11ac2d27874263a940862941ecdd04",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "reset",
+            "display": "reset",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}
